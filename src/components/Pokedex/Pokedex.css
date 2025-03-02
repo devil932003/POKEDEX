@@ -1,10 +1,33 @@
-.pokedex-wrapper{
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /* Importing a stylish font */
+
+.pokedex-wrapper {
     display: flex;
-    
     flex-direction: column;
+    align-items: center;
 }
 
-#Pokedex-heading{
-    margin: 0 auto;
-    letter-spacing: 5px;
+/* Styling the Pokedex heading */
+
+
+/* Styling the input bar with hover zoom effect */
+#pokemon-name-search {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 20px 0;
+    font-size: 1.2rem;
+    border: 2px solid #444;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* Input field focus effect */
+#pokemon-name-search:focus {
+    border-color: #ff0000;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
+/* Hover zoom effect */
+#pokemon-name-search:hover {
+    transform: scale(1.05);
 }

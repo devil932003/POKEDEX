@@ -4,7 +4,7 @@
    align-items: center;
     margin: 2rem auto;
 }
-.pokemon_wrapper{
+.pokemon-wrapper{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -14,23 +14,23 @@
 .controls button {
     padding: 1rem 1rem 0.5rem 0.5rem;
     margin-left: 1rem;
-    background: linear-gradient(90deg, #ff0000, #cc0000); /* Red gradient */
-    color: white; /* White text */
+    background: linear-gradient(90deg, #ff0000, #cc0000);
+    color: white; 
     font-size: 1rem;
     font-weight: bold;
     border: none;
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 10px; 
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 
-/* Hover effect */
+
 .controls button:hover {
     background: linear-gradient(90deg, #cc0000, #990000);
     transform: scale(1.05);
 }
 
-/* Active effect */
+
 .controls button:active {
     background: linear-gradient(90deg, #990000, #660000);
     transform: scale(0.95);

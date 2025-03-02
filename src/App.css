@@ -1,16 +1,16 @@
-/* App.css */
+
 body {
     background: linear-gradient(to right, #039c2c, #0dcaf0);
     
 }
-#Pokedex-heading {
+#pokedex-heading {
     margin: 0 auto;
     letter-spacing: 5px;
-    font-size: 5rem; /* Making the heading bigger */
-    font-family: 'Bebas Neue', sans-serif;  /* Cool Font */
+    font-size: 5rem;
+    font-family: 'Bebas Neue', sans-serif;  
     font-weight: bold;
     text-transform: uppercase;
-    background: linear-gradient(90deg, #000000, #333333, #666666); /* Black Gradient */
+    background: linear-gradient(90deg, #000000, #333333, #666666); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

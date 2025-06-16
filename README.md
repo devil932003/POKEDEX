@@ -1,13 +1,51 @@
-# React + Vite
+# 🧿 Pokédex App – React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast and responsive Pokédex application built with **React** and **Vite**, showcasing real-time Pokémon data from the [PokéAPI](https://pokeapi.co/). This project demonstrates modern React development with features like API integration, routing, search filtering, dynamic rendering, and responsive design.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [https://pokedex-mauve-two.vercel.app/](https://pokedex-mauve-two.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-LIVE DEMO https://pokedex-mauve-two.vercel.app/
+- 🔍 **Search Pokémon** by name or ID with instant results
+- 🧬 **Detailed Pokémon Info** including types, stats, abilities, base experience, height & weight
+- 🎨 **Type-based Styling** (e.g., fire-type Pokémon have a red-themed card)
+- 🗂️ **Pagination** or Lazy Loading for optimized performance
+- 📱 **Responsive Design** for all screen sizes
+- ⚡ **Fast performance** with Vite’s lightning-fast dev server
+- 🌐 **Clean URL routing** using React Router DOM
+- 🧼 **Linted Codebase** using ESLint and Prettier
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React + Vite
+- **Routing**: React Router DOM
+- **Styling**: Tailwind CSS (or CSS Modules, update if different)
+- **API**: [PokéAPI](https://pokeapi.co/)
+- **Deployment**: Vercel
+- **Developer Tools**: ESLint, Prettier, Git, GitHub
+
+---
+
+## 📁 Project Structure
+pokedex-app/
+├── public/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── assets/
+│ ├── App.jsx
+│ └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+
+#Screenshots
+![image](https://github.com/user-attachments/assets/be9fb8ab-500b-4a61-bffc-bd91e71f5590)
+![image](https://github.com/user-attachments/assets/cf4c31dd-9eea-47fa-9b23-07f48448f625)
+
+
+
